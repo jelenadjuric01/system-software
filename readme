@@ -1,0 +1,8 @@
+Projekat se pokrece komandama:
+make assembler
+make linker
+make emulator
+
+./assembler -o izlaz.o ulaz.c
+./linker -o program.hex izlaz.o
+./emulator program.hex
